@@ -6,29 +6,39 @@
 .menu-container{
     border-color: #FFF4F2;
     display: flex;
-    justify-content: space-around;
-    align-items: center; 
-}
-.minu-container ,div{
-    display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center; 
     flex-direction: column;
 }
-.minu-container h3{
-    font-family:  'Akaya Telivigala', cursive ;
+.menu-container .menu-content {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    width: 80%;
+}
+.menu-container h1{
+    font-family: 'Akaya Telivigala', cursive ;
     color: #292d4e;
     text-align: center;
+    font-size: 30px;
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
+
+.menu-container .menu-content h3{
     display: flex;
-    flex-direction: column;
-
+    justify-content:space-around ;
+    align-items: center;
+    font-family:  'Shippori Mincho B1';
+    padding-top: 20px;
 }
-h4{
-
-}
-.minu-container ,img{
-    max-width: 100%;
+.menu-container .menu-content img{
+    /*max-width: 100%;*/
     border:10px solid  #292d4e ;
     border-radius: 50%;
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+    
 
 }
