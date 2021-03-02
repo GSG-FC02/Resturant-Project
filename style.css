@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #fff4f2;
+}
+.about-section {
+  margin: auto;
+}
+.row {
+  width: 50%;
+  margin-right: 70px;
+}
+
+.about-img {
+  height: 500px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.about-title {
+  font-family: "Akaya Telivigala", cursive;
+  padding: 30px;
+  color: #292d4e;
+}
+.about-para {
+  font-family: "Shippori Mincho B1";
+  color: #292d4e;
+}
