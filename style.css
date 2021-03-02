@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu-container{
+    border-color: #FFF4F2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+.minu-container ,div{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.minu-container h3{
+    font-family:  'Akaya Telivigala', cursive ;
+    color: #292d4e;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+h4{
+
+}
+.minu-container ,img{
+    max-width: 100%;
+    border:10px solid  #292d4e ;
+    border-radius: 50%;
+
+}
