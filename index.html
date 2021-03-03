@@ -12,74 +12,49 @@
     <title>Document</title>
   </head>
   <body>
-    <section class="booking-section">
+    <section id="booking-section">
       <div class="container">
-        <img src="images/bookttable.jpg" alt="Booking-img" class="img" />
+        <img
+          src="images/bookttable.jpg"
+          alt="Booking-img"
+          class="about-booking-img"
+        />
         <div class="row">
           <h1 class="title">Book a table</h1>
           <p class="para">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
             odio minus dolore.
           </p>
+
+          <hr />
           <form class="booking-form" action="#">
-            <div class="row">
-              <div class="form-box mb-15">
+            <div class="form-row">
+              <div class="row">
                 <input
                   type="text"
-                  name="numgest"
-                  placeholder="Number of guests"
+                  id="name"
+                  name="name"
+                  placeholder="Your name.."
                 />
               </div>
-
-              <input
-                class="form-check-input"
-                type="radio"
-                name="choosemeal"
-                id="breakfast"
-                value="Breakfast"
-              />
-              <label class="form-check-label" for="breakfast">
-                Breakfast
-              </label>
-           
-            <div class="form-check">
-              <input
-                class="form-check-input"
-                type="radio"
-                name="choosemeal"
-                id="lunnch"
-                value="Lunnch"
-              />
-              <label class="form-check-label" for="lunnch"> Lunnch </label>
-            </div>
-            <div class="form-check">
-              <input
-                class="form-check-input"
-                type="radio"
-                name="choosemeal"
-                id="dinner"
-                value="dinner"
-              />
-              <label class="form-check-label" for="dinner"> Dinner </label>
-            </div>
-              <div class="form-check">
+              <div class="row">
                 <input
-                  class="form-check-input"
-                  type="radio"
-                  name="choosemeal"
-                  id="desert"
-                  value="Desert"
+                  type="text"
+                  id="num"
+                  name="num"
+                  placeholder="Number of guests.."
                 />
-                <label class="form-check-label" for="desert"> Desert </label>
               </div>
-              <div class="form-box mb-15">
+              <div class="row">
                 <input type="text" name="phone" placeholder="Phone no." />
               </div>
-
-             
-                <div class="submit-info">
-                  <button class="submit-btn" type="submit">Sent Request</button>
-                </div>
+              <div class="datetime">
+                <input type="date" id="date" name="date" />
+                <input type="time" id="time" name="time" />
+              </div>
+            
+              <div class="row">
+                <button class="book-btn" type="">Book Table</button>
               </div>
             </div>
           </form>
@@ -87,5 +62,4 @@
       </div>
     </section>
   </body>
-  </html>
-  
+</html>
