@@ -17,8 +17,8 @@
 }
 
 .about-booking-img {
-  height: 600px;
-  width: 500px;
+  height: 500px;
+  width: 400px;
   margin-right: 70px;
 }
 .container {
@@ -54,10 +54,12 @@ input {
   margin: 8px 0;
   box-sizing: content-box;
   border-radius: 50px;
-  background-color: #fff4f2;
+  
  
 }
+.datetime{
 
+}
 /* label {
   color: #343a6b;
   background-color: #fff4f2;
