@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#footer{
+    padding: 130px 0px;
+    background: url(/images/restaurant.jpg) no-repeat 0, 0 #292d4e;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    position: relative;
+}
+#footer .contact{
+    position: absolute;
+    left:63%;
+}
+#footer .contact .info{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 10%;
+    text-align: left;
+}
+#footer .logo img{
+    position: absolute;
+    border: 1px solid rgb(97, 97, 128);
+    border-radius: 50%;
+    width: 260px;
+    left:80px;
+    bottom: 370px;
+}
+#footer .logo p{
+    position: absolute;
+    /*right: 800px;
+    top: 175px;*/
+    font-family: 'Akaya Telivigala', cursive;
+    width: 15%;
+    font-size: 21px;
+    bottom: 230px;
+    left: 100px;
+
+}
+#footer .contact h1{
+    font-family: 'Akaya Telivigala', cursive;
+    text-align: left;
+    margin-bottom: 5%;
+    margin-top: 30%;
+}
+#footer .contact h1,p{
+    color: #FFF4F2;
+}
+#footer .contact .info a{
+    text-decoration: none;
+    color:  #FFF4F2;
+    font-family: 'Shippori Mincho B1';
+    padding-top: 10%;
+}
+#footer .contact .info a i{
+    padding-right: 5px;
+}
+#footer .contact .info p{
+    font-family: 'Raleway', sans-serif;
+    color:#FFF4F2;
+}
+#footer .contact .social{
+    padding-top: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%; 
+    font-size: 15px;
+}
+#footer .contact .social a{
+    text-decoration: none;
+    color:#FFF4F2 ;
+    transition: all .4s ease-out 0s;
+}
+#footer .contact .social a:hover{
+    color:orange;
+    transform: translateY(2px);
+    font-size: 17px;
+}
+#footer .time{
+    padding-right: 15%;
+    padding-top: 4.9%;
+}
+#footer .opening-time .time h1{
+    color: #FFF4F2;
+    font-family: 'Akaya Telivigala', cursive;
+    padding-bottom: 3%;
+}
+#footer .opening-time .time ul{
+    list-style: none;
+    color: #FFF4F2;
+    text-align: left;
+    margin-left: 250px;
+}
+#footer .opening-time .time ul li{
+    display: inline-block;
+    width: 100%;
+    padding: 0 25%;
+    line-height: 25px;  
+}
+ #footer .opening-time .time ul li span{
+        padding-right: 9%;}
+#footer .opening-time .time ul li #s1{
+       margin-left: 10%;}
+#footer .opening-time .time ul li #s2{
+        margin-left: 10%;}
+#footer .opening-time .time ul li #s3{
+        margin-left: 5.6%;}
+#footer .opening-time .time ul li #s4{
+        margin-left: 8.5%;}
+#footer .opening-time .time ul li #s5{
+        margin-left: 12.6%;}
+#footer .opening-time .time ul li #s6{
+        margin-left: 9.3%;}
+#footer .opening-time .time ul li #s7{
+        margin-left: 11.3%;}
+    
+
