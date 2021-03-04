@@ -10,7 +10,7 @@
     align-items: center; 
     flex-direction: column;
 }
-.menu-container .menu-content {
+ .menu-content {
     display: flex;
     justify-content: space-around;
     align-items:center;
@@ -24,18 +24,20 @@
     margin-bottom: 5%;
     margin-top: 10%;
 }
-.menu-container .menu-content h3{
+ .menu-content h3{
     display: flex;
     justify-content:space-around ;
     align-items: center;
     font-family:  'Shippori Mincho B1';
     padding-top: 20px ;
 }
-.menu-container .menu-content img{
+ .menu-content img{
     
     border:10px solid  #292d4e ;
     border-radius: 50%;
     display: flex;
     justify-content:space-around ;
     align-items: center;
+    width:210px;
+    height:210px;
 }
