@@ -12,26 +12,26 @@
     text-align: center;
     position: relative;
 }
-#footer .contact{
+ .contact{
     position: absolute;
     left:63%;
     bottom: 15%;
 }
-#footer .contact .info{
+ .contact .info{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     padding-top: 10%;
     text-align: left;
 }
-#footer .logo img{
+ .logo img{
     position: absolute;
     border-radius: 50%;
     width: 260px;
     left:-45px;
     bottom: 140px;
 }
-#footer .logo p{
+ .logo p{
     position: absolute;
     font-family: 'Raleway', sans-serif;
     width: 30%;
@@ -39,29 +39,29 @@
     bottom: 125px;
     left: -45px;
 }
-#footer .contact h1{
+ .contact h1{
     font-family: 'Akaya Telivigala', cursive;
     text-align: left;
     margin-bottom: 5%;
     margin-top: 30%;
 }
-#footer .contact h1,p{
+ .contact h1,p{
     color: #FFF4F2;
 }
-#footer .contact .info a{
+ .contact .info a{
     text-decoration: none;
     color:  #FFF4F2;
     font-family: 'Shippori Mincho B1';
     padding-top: 10%;
 }
-#footer .contact .info a i{
+ .contact .info a i{
     padding-right: 5px;
 }
-#footer .contact .info p{
+ .contact .info p{
     font-family: 'Raleway', sans-serif;
     color:#FFF4F2;
 }
-#footer .contact .social{
+ .contact .social{
     padding-top: 10%;
     display: flex;
     justify-content: space-around;
@@ -69,51 +69,51 @@
     width: 75%; 
     font-size: 15px;
 }
-#footer .contact .social a{
+ .contact .social a{
     text-decoration: none;
     color:#FFF4F2;
     transition: all .4s ease-out 0s;
 }
-#footer .contact .social a:hover{
+ .contact .social a:hover{
     color:orange;
     transform: translateY(2px);
     font-size: 17px;
 }
-#footer .time{
+ .time{
     padding-right: 15%;
 }
-#footer .opening-time .time h1{
+ .opening-time .time h1{
     color: #FFF4F2;
     font-family: 'Akaya Telivigala', cursive;
     padding-bottom: 3%;
 }
-#footer .opening-time .time ul{
+ .opening-time .time ul{
     list-style: none;
     color: #FFF4F2;
     text-align: left;
     margin-left: 250px;
 }
-#footer .opening-time .time ul li{
+ .opening-time .time ul li{
     display: inline-block;
     width: 100%;
     padding: 0 25%;
     line-height: 25px;  
 }
- #footer .opening-time .time ul li span{
+.time ul li span{
         padding-right: 9%;}
-#footer .opening-time .time ul li #s1{
+ .time ul li #s1{
        margin-left: 10%;}
-#footer .opening-time .time ul li #s2{
+  .time ul li #s2{
         margin-left: 10%;}
-#footer .opening-time .time ul li #s3{
+ .time ul li #s3{
         margin-left: 5.6%;}
-#footer .opening-time .time ul li #s4{
+ .time ul li #s4{
         margin-left: 8.5%;}
-#footer .opening-time .time ul li #s5{
+ .time ul li #s5{
         margin-left: 12.6%;}
-#footer .opening-time .time ul li #s6{
+  .time ul li #s6{
         margin-left: 9.3%;}
-#footer .opening-time .time ul li #s7{
+ .time ul li #s7{
         margin-left: 11.3%;}
-    
+
 
