@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fff4f2;
+  width: 100%;
+}
+.container {
+  width: 86%;
+  margin: 0 auto;
+}
+.sub-menu-header {
+  padding: 32px;
+  background-color: #292d4e;
+  color: #fff4f2;
+  border-bottom: 3px solid pink;
+}
+#header {
+  color: pink;
+}
+.sub-menu-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sub-menu-header-container-title {
+  font-family: "Pacifico", cursive;
+  letter-spacing: 1px;
+  color: #f5f5f3;
+}
+.sub-menu-header-nav li {
+  padding: 0 10px;
+}
+.sub-menu-header-nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Akaya Telivigala", cursive;
+}
+.sub-menu-header-nav-list a {
+  text-decoration: none;
+  color: #fff4f2;
+  font-size: 22px;
+}
+.sub-menu-header-nav-list a:hover {
+  color: pink;
+}
+
+/* Menu Section */
+.menu-section1 {
+  width: 100%;
+  margin: 0 auto;
+}
+.section-container-title {
+  height: 50px;
+  text-align: center;
+  margin: 50px 0px 50px 0px;
+  color: #292d4e;
+}
+.section-container-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 75px;
+}
+h1 {
+  color: #292d4e;
+  font-family: "Akaya Telivigala", cursive;
+}
+.pragraf {
+  color: #292d4e;
+  font-family: "Shippori Mincho B1";
+  width: 100%;
+  line-height: 30px;
+}
+.left-side {
+  width: 40%;
+}
+.menu-section2 {
+  width: 100%;
+  margin: 0 auto;
+}
+.right-side {
+  width: 40%;
+}
+
+#hr {
+  height: 4px;
+  background-color: #292d4e;
+}
+.footer-menu {
+  margin: 50px;
+}
+.back-home-page {
+  padding: 15px;
+  background-color: #292d4e;
+  color: #fff4f2;
+  text-align: center;
+  margin-left: 45%;
+  border: none;
+  border-radius: 50px;
+  font-family: "Akaya Telivigala", cursive;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.back-home-page:hover {
+  background-color: rgb(7, 204, 178);
+}
+
+/*Media Query Style*/
+@media (max-width: 1050px) {
+  body {
+  }
+  .container {
+    width: 95%;
+  }
+  img {
+    width: 300px;
+    height: 520px;
+  }
+  .pragraf {
+    font-size: 15px;
+  }
+  .section-container-content {
+    justify-content: space-around;
+  }
+
+  .header-nav {
+    width: 100%;
+  }
+  .header-container-title {
+    padding-bottom: 10px;
+    margin-left: 0px;
+  }
+  .left-side h1,
+  .right-side h1 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 900px) {
+  img {
+    width: 220px;
+    height: 440px;
+  }
+  .left-side h1,
+  .right-side h1 {
+    font-size: 14px;
+    font-weight: bolder;
+  }
+  .header-container {
+    flex-direction: column;
+  }
+  .sub-menu-header-container {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .pragraf {
+    font-size: 12px;
+  }
+  .header-nav {
+    width: 100%;
+  }
+  .header-container-title {
+    padding-bottom: 10px;
+    margin-left: 0px;
+  }
+}
