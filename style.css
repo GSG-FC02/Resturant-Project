@@ -116,4 +116,60 @@
  .time ul li #s7{
         margin-left: 11.3%;}
 
+        @media (max-width: 1024px) {
+            .logo p {
+                left: 8px;
+            }
+            .opening-time .time ul li {
+                padding: 0px 15%;
+            }
+        }
+        @media (max-width: 768px) {
+          .contact{
+              left:63%;
+          }
+          .time{
+             margin-left: -70px;
+
+          }
+          .opening-time .time h1 {
+              margin-right: -85px;
+          }
+          .logo p{
+              top: 140px;
+              font-size: 14px;
+          }
+        }
+        @media (max-width: 414px) {
+            .contact {
+                bottom: 27%;
+            }
+            .contact h1 {
+                margin-bottom: -8%;
+                font-size: 22px;
+            }
+            .contact .info {
+                padding-top: 19%;
+                font-size: 12px;
+            }
+            .time{
+                margin-left: -195px;
+                font-size: 11px;
+   
+             }
+             .opening-time .time h1 {
+                 margin-right: -170px;
+                 font-size: 22px;
+             }
+             .logo img {
+                 width: 125px;
+                 left: -20px;
+                 bottom: 200px;
+             }
+             .logo p {
+                top: 70px;
+                font-size: 10px;
+                width: 15%;
+             }
+        }
 
