@@ -24,9 +24,6 @@
     margin-bottom: 5%;
     margin-top: 10%;
 }
-
-
-/*****/
 .menu-container .menu-content h3{
     display: flex;
     justify-content:space-around ;
@@ -41,6 +38,4 @@
     display: flex;
     justify-content:space-around ;
     align-items: center;
-    
-
 }
