@@ -33,14 +33,11 @@
 }
 #footer .logo p{
     position: absolute;
-    /*right: 800px;
-    top: 175px;*/
     font-family: 'Raleway', sans-serif;
     width: 30%;
     font-size: 15px;
     bottom: 125px;
     left: -45px;
-
 }
 #footer .contact h1{
     font-family: 'Akaya Telivigala', cursive;
