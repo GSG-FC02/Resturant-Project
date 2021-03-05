@@ -3,6 +3,42 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.about-section {
+  margin: auto;
+}
+
+/* for both about and booking */
+.row {
+  width: 50%;
+  margin-right: 70px;
+  font-family: "Shippori Mincho B1", serif;
+  color: #292d4e;
+}
+
+.about-booking-img {
+  height: 500px;
+  width: 400px;
+   margin-right: 70px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  width: 70%;
+  margin: 0 auto;
+}
+.title {
+  font-family: "Akaya Telivigala", cursive;
+  padding: 30px;
+  color: #292d4e;
+}
+.para {
+  font-family: "Shippori Mincho B1", serif;
+  color: #292d4e;
+}
+
+
 .home-page{
     background-image: url("images/background.jpg");
 }
