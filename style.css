@@ -1,8 +1,175 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+#footer{
+    padding: 25px 0px;
+    background: url(/images/restaurant.jpg) no-repeat 0, 0 #292d4e;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    position: relative;
 }
+ .contact{
+    position: absolute;
+    left:63%;
+    bottom: 15%;
+}
+ .contact .info{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 10%;
+    text-align: left;
+}
+ .logo img{
+    position: absolute;
+    border-radius: 50%;
+    width: 260px;
+    left:-45px;
+    bottom: 140px;
+}
+ .logo p{
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+    width: 30%;
+    font-size: 15px;
+    bottom: 125px;
+    left: -45px;
+}
+ .contact h1{
+    font-family: 'Akaya Telivigala', cursive;
+    text-align: left;
+    margin-bottom: 5%;
+    margin-top: 30%;
+}
+ .contact h1,p{
+    color: #FFF4F2;
+}
+ .contact .info a{
+    text-decoration: none;
+    color:  #FFF4F2;
+    font-family: 'Shippori Mincho B1';
+    padding-top: 10%;
+}
+ .contact .info a i{
+    padding-right: 5px;
+}
+ .contact .info p{
+    font-family: 'Raleway', sans-serif;
+    color:#FFF4F2;
+}
+ .contact .social{
+    padding-top: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%; 
+    font-size: 15px;
+}
+ .contact .social a{
+    text-decoration: none;
+    color:#FFF4F2;
+    transition: all .4s ease-out 0s;
+}
+ .contact .social a:hover{
+    color:orange;
+    transform: translateY(2px);
+    font-size: 17px;
+}
+ .time{
+    padding-right: 35%;
+}
+ .opening-time .time h1{
+    color: #FFF4F2;
+    font-family: 'Akaya Telivigala', cursive;
+    padding-bottom: 3%;
+    margin-left: 210px;
+}
+ .opening-time .time ul{
+    list-style: none;
+    color: #FFF4F2;
+    text-align: left;
+    margin-left: 250px;
+}
+ .opening-time .time ul li{
+    display: inline-block;
+    width: 100%;
+    padding: 0 25%;
+    line-height: 25px;  
+}
+.time ul li span{
+        padding-right: 9%;}
+ .time ul li #s1{
+       margin-left: 10%;}
+  .time ul li #s2{
+        margin-left: 10%;}
+ .time ul li #s3{
+        margin-left: 5.6%;}
+ .time ul li #s4{
+        margin-left: 8.5%;}
+ .time ul li #s5{
+        margin-left: 12.6%;}
+  .time ul li #s6{
+        margin-left: 9.3%;}
+ .time ul li #s7{
+        margin-left: 11.3%;}
+
+        @media (max-width: 1024px) {
+            .logo p {
+                left: 8px;
+            }
+            .opening-time .time ul li {
+                padding: 0px 15%;
+            }
+        }
+        @media (max-width: 768px) {
+          .contact{
+              left:63%;
+          }
+          .time{
+             margin-left: -70px;
+
+          }
+          .opening-time .time h1 {
+              margin-right: -85px;
+          }
+          .logo p{
+              top: 140px;
+              font-size: 14px;
+          }
+        }
+        @media (max-width: 414px) {
+            .contact {
+                bottom: 27%;
+            }
+            .contact h1 {
+                margin-bottom: -8%;
+                font-size: 22px;
+            }
+            .contact .info {
+                padding-top: 19%;
+                font-size: 12px;
+            }
+            .time{
+                margin-left: -195px;
+                font-size: 11px;
+   
+             }
+             .opening-time .time h1 {
+                 margin-right: -170px;
+                 font-size: 22px;
+             }
+             .logo img {
+                 width: 125px;
+                 left: -20px;
+                 bottom: 200px;
+             }
+             .logo p {
+                top: 70px;
+                font-size: 10px;
+                width: 15%;
+             }
+        }
+
 .menu-container{
     border-color: #FFF4F2;
     display: flex;
