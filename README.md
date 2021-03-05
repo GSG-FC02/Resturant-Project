@@ -1,6 +1,6 @@
 # ResturantProject
 
-## Live Link [here](https://gsg-fc02.github.io/real-estate-wibsite-6/)
+## Live Link [here](https://gsg-fc02.github.io/Resturant-Project/)
 
 **Our team member:**
 1. Riham Hasan Abo-Hatab.
