@@ -17,9 +17,10 @@
   color: #292d4e;
 }
 
-.img {
+.about-booking-img {
   height: 500px;
   width: 400px;
+   margin-right: 70px;
 }
 .container {
   display: flex;
