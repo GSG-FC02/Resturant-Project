@@ -1,16 +1,101 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1&display=swap" rel="stylesheet">  
-</head>
-<body>
-    <section class="menu-container">
+ <!DOCTYPE html>
+ <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catering Restaurant</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" />
+  </head>
+  
+  <body>
+    <main class="home-page">
+      <header class="home-header">
+        <div class="home-title">
+          <h1>Catering Restaurant</h1>
+        </div>
+        <div class="home-logo-box">
+          <img
+            id="home-logo"
+            src="images/logo.png"
+            alt="Catering Resturant Logo"
+          />
+        </div>
+      </header>
+      <section class="home-container">
+        <div class="home-images">
+          <div class="nav-about">
+            <a href="#about-section"
+              ><img class="nav-image" src="images/aboutus.jpg" alt="About Us" />
+              <div class="hover-text">About Us</div></a
+            >
+          </div>
+
+          <div class="nav-booking">
+            <a href="#booking-section"
+              ><img class="nav-image" src="images/booking.png" alt="Booking" />
+              <div class="hover-text">Booking</div></a
+            >
+          </div>
+
+          <div class="nav-menu">
+            <a href="#menu-container"
+              ><img class="nav-image" src="images/menu.jpg" alt="Menu" />
+              <div class="hover-text">Our Menu</div></a
+            >
+          </div>
+
+          <div class="nav-contact">
+            <a href="#footer"
+              ><img
+                class="nav-image"
+                src="images/contact.jpg"
+                alt="Contact Us"
+              />
+              <div class="hover-text">Contact Us</div></a
+            >
+          </div>
+        </div>
+        <div class="home-welcome">
+          <h1>
+            Welcome <br />To Our <br />
+            Restaurant
+          </h1>
+        </div>
+      </section>
+      <section id="about-section">
+        <div class="container">
+          <div class="row">
+            <h1 class="title">About Us</h1>
+
+            <p class="para">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Dignissimos necessitatibus iste eveniet sit, quasi ut repellendus
+              aspernatur, natus perferendis iusto id distinctio? Error impedit
+              porro repellendus! Vel veniam repellendus eius!. <br />
+              ipsum dolor sit amet consectetur adipisicing elit. Soluta
+              praesentium dignissimos nemo eos quas vero voluptate rem nulla.
+              Error, dolorum? Repellat praesentium consectetur asperiores
+              aspernatur, officiis ad provident reprehenderit nemo.<br />
+              ipsum dolor sit amet consectetur adipisicing elit. Soluta
+              praesentium dignissimos nemo eos quas vero voluptate rem nulla.
+              Error, dolorum? Repellat praesentium consectetur asperiores
+            </p>
+          </div>
+          <img
+            src="images/aboutus.jpg"
+            alt="About-us-img "
+            class="about-booking-img"
+          />
+        </div>
+      </section>
+      <section class="menu-container">
         <h1>Menu</h1>
         <div class="menu-content">
             <div class="menu-content-1">
@@ -42,6 +127,54 @@
                 <h3>Dessert</h3>
             </div>
         </div>
-    </section>
-</body>
+      </section>
+      <section id="booking-section">
+        <div class="container">
+          <img
+            src="images/bookttable.jpg"
+            alt="Booking-img"
+            class="about-booking-img"
+          />
+          <div class="row">
+            <h1 class="title">Book a table</h1>
+            <p class="para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+              odio minus dolore.
+            </p>
+            <div class="booking-form">
+              <form action="#">
+                <div class="form-row">
+                  <input
+                    type="text"
+                    class="form-input"
+                    name="name"
+                    placeholder="Your name.."
+                  />
+  
+                  <input
+                    type="text"
+                    class="form-input"
+                    name="num"
+                    placeholder="Number of guests.."
+                  />
+  
+                  <input
+                    type="text"
+                    name="phone"
+                    class="form-input"
+                    placeholder="Phone no."
+                  />
+  
+                  <input type="date" class="form-input" name="date" />
+                  <input type="time" class="form-input" name="time" />
+  
+                  <button class="book-btn" type="">Book Table</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
