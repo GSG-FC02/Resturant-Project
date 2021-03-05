@@ -41,3 +41,31 @@
     width:210px;
     height:210px;
 }
+@media (max-width: 1024px) {
+    .menu-content {
+        width: 92%;
+    }
+}
+@media (max-width: 768px) {
+    .menu-content img {
+        width: 140px;
+        height: 140px;
+    }
+}
+@media (max-width: 414px) {
+    .menu-content img {
+        width: 85px;
+        height: 85px;
+    }
+    .menu-content img {
+        border: 5px solid #292d4e;
+    }
+
+    .menu-content h3 {
+        font-size: 16px;
+        }
+    .menu-container h1 {
+            font-size: 23px;
+            margin-bottom: 10%;
+        }
+}
