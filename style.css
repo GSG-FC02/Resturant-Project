@@ -1,7 +1,74 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu-container{
+    border-color: #FFF4F2;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    background-color: #fff4f2
+}
+ .menu-content {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    width: 80%;
+}
+.menu-container h1{
+    font-family: 'Akaya Telivigala', cursive ;
+    color: #292d4e;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
+ .menu-content h3{
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+    font-family:  'Shippori Mincho B1';
+    padding-top: 20px ;
+}
+ .menu-content img{
+    
+    border:10px solid  #292d4e ;
+    border-radius: 50%;
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+    width:210px;
+    height:210px;
+}
+@media (max-width: 1024px) {
+    .menu-content {
+        width: 92%;
+    }
+}
+@media (max-width: 768px) {
+    .menu-content img {
+        width: 140px;
+        height: 140px;
+    }
+}
+@media (max-width: 414px) {
+    .menu-content img {
+        width: 85px;
+        height: 85px;
+    }
+    .menu-content img {
+        border: 5px solid #292d4e;
+    }
+
+    .menu-content h3 {
+        font-size: 16px;
+        }
+    .menu-container h1 {
+            font-size: 23px;
+            margin-bottom: 10%;
+        }
   
 }
 #about-section {
