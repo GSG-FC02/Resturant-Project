@@ -1,11 +1,12 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
 }
-
-.about-section {
+#about-section {
   margin: auto;
+  background-color: #fff4f2;
 }
 
 /* for both about and booking */
@@ -19,7 +20,8 @@
 .about-booking-img {
   height: 500px;
   width: 400px;
-   margin-right: 70px;
+  margin-right: 80px;
+  margin-top: 50px;
 }
 .container {
   display: flex;
@@ -37,11 +39,49 @@
   font-family: "Shippori Mincho B1", serif;
   color: #292d4e;
 }
-
-
-.home-page{
-    background-image: url("images/background.jpg");
+/* for booking section */
+#booking-section {
+    margin: auto;
+    background-color: #fff4f2;
+  }
+.booking-form {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  padding: 20px;
+  font-family: "Shippori Mincho B1", serif;
+  color: #292d4e;
 }
+
+.form-input {
+  border: 2px#292d4e solid;
+  border-radius: 50px;
+  width: 80%;
+  padding: 12px;
+  margin-bottom: 20px;
+  color: #292d4e;
+  outline: none;
+}
+
+.book-btn {
+  background-color: #292d4e;
+  border: none;
+  color: #fff4f2;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  margin-top: 15px;
+  margin-left: 290px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 50px;
+  font-family: "Shippori Mincho B1", serif;
+  width: 50%;
+
+}
+
 .home-header{
     width: 100%;
     height: 100px;
@@ -77,6 +117,8 @@
 .home-container{
     display: flex;
     justify-content: space-between;   
+    
+    background-image: url("images/background.jpg");
 }
 .home-images{
     position: relative;
