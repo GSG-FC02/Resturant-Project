@@ -24,60 +24,63 @@
 </head>
   
   <body>
-    <main class="home-page">
-      <header class="home-header">
-        <div class="home-title">
-          <h1>Catering Restaurant</h1>
-        </div>
-        <div class="home-logo-box">
-          <img
-            id="home-logo"
-            src="images/logo.png"
-            alt="Catering Resturant Logo"
-          />
-        </div>
-      </header>
-      <section class="home-container">
-        <div class="home-images">
-          <div class="nav-about">
-            <a href="#about-section"
-              ><img class="nav-image" src="images/aboutus.jpg" alt="About Us" />
-              <div class="hover-text">About Us</div></a
-            >
+    <main >
+      <div class="home-page">
+        <header class="home-header">
+          <div class="home-title">
+            <h1>Catering Restaurant</h1>
           </div>
-
-          <div class="nav-booking">
-            <a href="#booking-section"
-              ><img class="nav-image" src="images/booking.png" alt="Booking" />
-              <div class="hover-text">Booking</div></a
-            >
+          <div class="home-logo-box">
+            <img
+              id="home-logo"
+              src="images/logo.png"
+              alt="Catering Resturant Logo"
+            />
           </div>
-
-          <div class="nav-menu">
-            <a href="#menu-container"
-              ><img class="nav-image" src="images/menu.jpg" alt="Menu" />
-              <div class="hover-text">Our Menu</div></a
-            >
+        </header>
+        <section class="home-container">
+          <div class="home-images">
+            <div class="nav-about">
+              <a href="#about-section"
+                ><img class="nav-image" src="images/aboutus.jpg" alt="About Us" />
+                <div class="hover-text">About Us</div></a
+              >
+            </div>
+  
+            <div class="nav-booking">
+              <a href="#booking-section"
+                ><img class="nav-image" src="images/booking.png" alt="Booking" />
+                <div class="hover-text">Booking</div></a
+              >
+            </div>
+  
+            <div class="nav-menu">
+              <a href="#menu-container"
+                ><img class="nav-image" src="images/menu.jpg" alt="Menu" />
+                <div class="hover-text">Our Menu</div></a
+              >
+            </div>
+  
+            <div class="nav-contact">
+              <a href="#footer"
+                ><img
+                  class="nav-image"
+                  src="images/contact.jpg"
+                  alt="Contact Us"
+                />
+                <div class="hover-text">Contact Us</div></a
+              >
+            </div>
           </div>
-
-          <div class="nav-contact">
-            <a href="#footer"
-              ><img
-                class="nav-image"
-                src="images/contact.jpg"
-                alt="Contact Us"
-              />
-              <div class="hover-text">Contact Us</div></a
-            >
+          <div class="home-welcome">
+            <h1>
+              Welcome <br />To Our <br />
+              Restaurant
+            </h1>
           </div>
-        </div>
-        <div class="home-welcome">
-          <h1>
-            Welcome <br />To Our <br />
-            Restaurant
-          </h1>
-        </div>
-      </section>
+        </section>
+      </div>
+      
       <section id="about-section">
         <div class="container">
           <div class="row">
@@ -94,7 +97,6 @@
               aspernatur, officiis ad provident reprehenderit nemo.<br />
               ipsum dolor sit amet consectetur adipisicing elit. Soluta
               praesentium dignissimos nemo eos quas vero voluptate rem nulla.
-              Error, dolorum? Repellat praesentium consectetur asperiores
             </p>
           </div>
           <img
@@ -104,33 +106,33 @@
           />
         </div>
       </section>
-      <section class="menu-container">
+      <section class="menu-container" id="menu-container">
         <h1>Menu</h1>
         <div class="menu-content">
             <div class="menu-content-1">
                 <a href="menu.html#Breakfast">
-                    <img alt="breakfast" src="/images/breakfast_menu.jpg"
+                    <img alt="breakfast" src="images/breakfast_menu.jpg"
                     >
                 </a>
                 <h3>Breakfast</h3>
             </div>
             <div class="menu-content-2">
                 <a href="menu.html#Lanch">
-                    <img alt="lunch" src="/images/lunch_menu.jpg"
+                    <img alt="lunch" src="images/lunch_menu.jpg"
                 >
                 </a>
                 <h3>Lunch</h3>
             </div>
             <div class="menu-content-3">
                 <a href="menu.html#Dinner">
-                    <img alt="dinner" src="/images/dinner_menu.jpg"
+                    <img alt="dinner" src="images/dinner_menu.jpg"
                     >
                 </a>
                 <h3>Dinner</h3>
             </div>
             <div class="menu-content-4">
                 <a href="menu.html#Dessert">
-                    <img alt="dessert" src="/images/cheesecake.jpg"
+                    <img alt="dessert" src="images/cheesecake.jpg"
                     >
                 </a>
                 <h3>Dessert</h3>
@@ -145,7 +147,7 @@
             class="about-booking-img"
           />
           <div class="row">
-            <h1 class="title">Book a table</h1>
+            <h1 class="title">Book a Table</h1>
             <p class="para">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
               odio minus dolore.
@@ -157,27 +159,27 @@
                     type="text"
                     class="form-input"
                     name="name"
-                    placeholder="Your name.."
+                    placeholder="Name"
                   />
   
                   <input
                     type="text"
                     class="form-input"
                     name="num"
-                    placeholder="Number of guests.."
+                    placeholder="Number of Guests"
                   />
   
                   <input
                     type="text"
                     name="phone"
                     class="form-input"
-                    placeholder="Phone no."
+                    placeholder="Phone Number"
                   />
   
                   <input type="date" class="form-input" name="date" />
                   <input type="time" class="form-input" name="time" />
   
-                  <button class="book-btn" type="">Book Table</button>
+                  <button class="book-btn" type="">Book a Table</button>
                 </div>
               </form>
             </div>
@@ -237,7 +239,7 @@
 
         </div>
         <div class="logo">
-            <img src="/images/logo.png" alt="logo">
+            <img src="images/logo.png" alt="logo">
             <p>“Our mission is to WOW people every day!”</p>
         </div>
       </footer>
