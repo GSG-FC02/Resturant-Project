@@ -1,4 +1,4 @@
-# ResturantProject
+# Resturant Project
 
 ## Live Link [here](https://gsg-fc02.github.io/Resturant-Project/)
 
